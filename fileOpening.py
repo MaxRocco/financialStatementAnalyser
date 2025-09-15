@@ -30,12 +30,3 @@ def select_file():
             continue
 
         return filePath, fileType
-
-
-file_path, file_type = select_file()
-
-if file_path:
-    if file_type == "Excel":
-        print("Excel file loaded")
-    elif file_type == "PDF":
-        print("PDF file loaded")
