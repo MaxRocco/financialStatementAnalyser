@@ -14,6 +14,7 @@ def main():
         if dataFile is not None:
             print("Excel data: ")
             print(dataFile.head())  # Todo: Implement a way to print specific information, fix presentation
+            # Todo: Remove redundancy; do not display NaN values in cells that are just empty
         else:
             print("Failed to parse Excel file.")
 
